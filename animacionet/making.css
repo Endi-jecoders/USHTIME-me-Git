@@ -1,0 +1,34 @@
+h1,h2,h3{
+    color: brown;
+}
+ul{
+    list-style-type: lower-alpha;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+body{
+    font-family: sans-serif;
+}
+a:link,a:visited{
+text-decoration: none;
+color: brown;
+}
+a:hover{
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav a:link,nav a:visited{
+    background-color: brown;
+    color: white;
+}
+nav a:hover{
+    background-color: black;
+}
+

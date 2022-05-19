@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+div:hover{
+    /* leviz divin nga ana x ose y
+    transform: translate(80px,20px); *
+    /* transform: rotate(60deg); */
+    /* transform: scale(-1); */
+    /* transform: skew(30deg); */
+}

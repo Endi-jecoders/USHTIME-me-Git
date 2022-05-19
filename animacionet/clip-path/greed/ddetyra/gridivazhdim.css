@@ -1,0 +1,45 @@
+/* body{
+    display: grid;
+    grid-template-columns: [first] 100px [second] 200px [third] 100px;
+    grid-template-rows:repeat(3,100px);
+grid-gap:10px
+}
+div{
+    border: 1px solid black;
+}
+.klasa{
+    grid-column: second/third;
+} */
+body{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: "nav nav nav nav nav"
+                         "art art art aside aside"
+                         "vid vid vid vid vid"
+                         "vid vid vid vid vid"
+                         "foot foot foot foot foot";
+                         grid-gap:20px;
+                         
+                         
+}
+div{
+    border: 1px solid black;
+}
+.navbar{
+    grid-area: nav;
+}
+.art{
+    grid-area: art;
+}
+.aside{
+    grid-area: aside;
+}
+.video{
+    grid-area: vid;
+}
+.footer{
+    grid-area: foot;
+}

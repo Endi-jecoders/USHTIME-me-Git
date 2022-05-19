@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(121, 117, 117);
+}
+h1{
+    color: white;
+}
+h2{
+color: white;
+}
+a{
+    color: white;
+}
+ul{
+    color: white;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: blue;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav a:link,nav a:visited{
+    background-color: rgb(250, 9, 9);
+    color: rgb(252, 238, 238);
+}
+nav a:hover{
+    background-color: blue;
+}

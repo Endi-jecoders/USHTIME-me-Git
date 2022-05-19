@@ -1,0 +1,10 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* clip-path:circle(100px at 30px 30px); */
+    /* clip-path: inset(30px); */
+    /* clip-path: circle(50px at 50% 50%); */
+    /* clip-path: ellipse(50px 100px at 50% 50%); */
+    clip-path: polygon(50% 0%,);
+}

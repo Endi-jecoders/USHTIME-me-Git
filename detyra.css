@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.box{
+
+    width: 200px;
+    height: 200px;
+}
+.red{
+    background-color: red;
+    transition: 1s;
+    transform-origin: top left;
+}
+.blue{
+    background-color: blue;
+    transition: 1s;
+    transform-origin: top right;
+}
+.yellow{
+    background-color: green;
+    transition: 1s;
+    transform-origin: top left;
+
+}
+.gree{
+    background-color: yellow;
+    transition: 1s;
+    transform-origin: top right ;
+}
+.ngjyrat{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    
+}
+p{
+    font-size: 30px;
+    position: absolute;
+    z-index:-1 ;
+}
+.ngjyrat:hover.red
+.ngjyrat:hover.blue{
+transform: rotate(90deg);
+}
+.ngjyrat:hover.gree
+.ngjyrat:hover.yellow{
+    transform: rotate(-90deg);
+}

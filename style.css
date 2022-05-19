@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 100px; 
+    margin-right: 100px; 
+}
+.navbar , .firstsocation, .secondsocation{
+    width: 100%;
+}
+.menu{
+    float: right;
+    word-spacing: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.left{
+    background-color: #D2C7F0;
+    float: left;
+    width: 40%;
+    height: 500px;
+  }
+.right img{
+  width: 60%;
+  float: right;
+height: 500px;
+}
+.emadhe{
+   font-size: 60px; 
+   font-weight:bold ;
+}
+.produktet{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    float: left;
+}
+.kontakti{
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 10px;
+    float: right;
+    border: 1px solid black;
+}
+.margjinat{
+    margin: 0px 30px;
+}
+span{
+    color: #D2C7F0;
+
+}
+.left1{
+    float:left ;
+    width: 40%;
+}
+.right1 p{
+    padding: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.p{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.artikullileft{
+float: left;
+display: inline;
+width: 50%;
+}
+.artikullileft img{
+    float: right;
+    display: inline;
+    width: 50%;
+}
+.produktet{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    float: left;
+}
+.color{
+    display: flex;
+    gap: 10px;
+}
+.red{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+   border-radius: 50px; 
+}
+.orange{
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+   border-radius: 50px; 
+}
+.black{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+   border-radius: 50px; 
+}
+.brown{
+    background-color: brown;
+    width: 20px;
+    height: 20px;
+   border-radius: 50px; 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+iframe{
+   width: 50%; 
+   height: 350px;
+   /* display: inline; */
+}
+form{
+    width: 50%;
+    /* display: inline; */
+    float: right;
+ 
+
+}
+form button{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    width: 100%;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-shadow: 0px 0px 7px grey;
+}

@@ -1,0 +1,58 @@
+/* p::first-line{
+
+    background-color: brown;
+    font-size: 40px;
+}
+p::first-letter{
+    background-color: aquamarine;
+} */
+/* p::after{
+    content:"Endi Fazliu";
+    background-color: aquamarine;
+} */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.zemra{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 0px 10px;
+    animation: pulsi 3s infinite;
+    ;
+}
+.zemra::before,
+.zemra::after{
+    content: "";
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+.zemra::before{
+    top: 0px;
+    left: -75px;
+}
+.zemra::after{
+top: -75px;
+left: 0px;
+}
+@keyframes pulsi {
+    0%{
+        transform: rotate(45deg) scale(0.75);
+    }
+    50%{
+        transform: rotate(45deg) scale(1);
+    }
+    100%{
+        transform: rotate(45deg) scale(0.75);
+    }
+
+}
